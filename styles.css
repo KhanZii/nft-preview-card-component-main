@@ -8,6 +8,7 @@
 
 body {
     background-color: hsl(217, 54%, 11%);
+    font-family: outfit , sans-serif;
     font-size: 18px;
     display: flex;
     flex-direction: column;
@@ -27,6 +28,11 @@ img {
     margin-bottom: 1.3rem;
 }
 
+.card .equilibrium:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
 .card {
     background-color: hsl(216, 50%, 16%);
     padding: 1.3rem;
@@ -37,10 +43,14 @@ img {
 }
 
 h1 {
-    font-family: Outfit , sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: 18px;
     margin-bottom: 1.3rem;
+}
+
+.card h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 p {
@@ -103,6 +113,15 @@ hr {
     width: 30px;
     border-radius: 100%;
     border: 1px solid white;
+}
+
+.card .creator span {
+    color: hsl(0, 0%, 100%);
+}
+
+.card .creator span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 

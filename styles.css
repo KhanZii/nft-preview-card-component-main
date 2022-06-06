@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.equilibrium  {
+    border-radius: 0.5rem;
+    width: 250px;
+    margin-bottom: 1.3rem;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.3rem;
+    border-radius: 1.1rem;
+    box-shadow: 0px 0px 35px hsl(218, 80%, 6%);
+    margin-bottom: 2rem;
+    max-width: 290px;
+}
+
+h1 {
+    font-family: Outfit , sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-bottom: 1.3rem;
+}
+
+p {
+    font-family: Outfit , sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    margin-bottom: 1.3rem;
+}
+
+.eth {
+    font-family: Outfit , sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+
+.time, .creator {
+    font-family: Outfit , sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: white; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.eth-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+.eth-container {
+    display: flex;
+    gap: 5px;
+}
+
+.time-container {
+    display: flex;
+    gap: 5px;
+}
+
+hr {
+    margin-bottom: 1.0rem;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+
+
+@media (min-width: 500px) {
+    .card {
+        width: 400px;
+    }
+}

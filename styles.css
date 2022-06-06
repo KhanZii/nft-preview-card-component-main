@@ -85,8 +85,7 @@ p {
 
 .time-container {
     display: flex;
-    gap: 5px;
-    flex-wrap: nowrap;
+    gap: 2px;
 }
 
 hr {
